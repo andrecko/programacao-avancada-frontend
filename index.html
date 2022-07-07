@@ -5,24 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
     <header>
-        <img src="assets/img/link.png" alt="Personagem 'Link' do jogo 'Zelda'.">
-        <h1>Nunca mais esqueça um endereço!</h1>
+        <img id="logo" src="assets/img/link.png" alt="Personagem 'Link' do jogo 'Zelda'.">
+        <span id="titulo">Nunca mais esqueça um<br>endereço!</span>
+        <img id="font" src="assets/img/font.png" alt="Controle do tamanho da fonte">
     </header>
-    <form action="">
+
+    <ul id="menu" class="content-area">
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">&#8681</a>
+          <span id="user">Usuário</span>
+          <div class="dropdown-content">
+            <a href="#">Opções</a>
+            <a href="#">Sair</a>
+          </div>
+        </li>
+    </ul>
+
+    <form action="" class="content-area">
         <input type="text" placeholder="Exemplo, http://www.exemplo.com">
-        <ul>
-            
+        <ul class="links">
+            <li>Instagram, http://www.instagram.com</li>
         </ul>
     </form>
+
+    <div class="content-area" id="funcionamento">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
     <footer>
-        <span>Desenvolvedor: André</span>
-        <span>Contato</span>
-        <img src="assets/img/twitter.png" alt="Twitter">
-        <img src="assets/img/instagram.png" alt="Instagram">
-        <img src="assets/img/gmail.png" alt="Gmail">
+        <div id="mapa">
+            <span>Menu | Pesquisa | Funcionamento</span>
+            <br>
+            <span>Desenvolvedor: André</span>
+        </div>
+        <div id="contato">
+            <span>Contato</span>
+            <div id="redes-sociais">
+                <img id="twitter" src="assets/img/twitter.png" alt="Twitter">
+                <img id="instagram" src="assets/img/instagram.png" alt="Instagram">
+                <img id="gmail" src="assets/img/gmail.png" alt="Gmail">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
