@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-    <header>
-        <img id="logo" src="assets/img/link.png" alt="Personagem 'Link' do jogo 'Zelda'.">
-        <span id="titulo">Nunca mais esqueça um<br>endereço!</span>
-        <img id="font" src="assets/img/font.png" alt="Controle do tamanho da fonte">
-    </header>
 
-    <ul id="menu" class="content-area">
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">&#8681</a>
-          <span id="user">Usuário</span>
-          <div class="dropdown-content">
-            <a href="#">Opções</a>
-            <a href="#">Sair</a>
-          </div>
-        </li>
-    </ul>
+    <div id="cabecalho">
 
-    <form action="" class="content-area">
-        <input type="text" placeholder="Exemplo, http://www.exemplo.com">
-        <ul class="links">
-            <li>Instagram, http://www.instagram.com</li>
-        </ul>
-    </form>
+        <header>
+            <div id="logo-e-titulo">
 
-    <div class="content-area" id="funcionamento">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+                <div id="logo-img">
+                    <img id="logo" src="assets/img/link.png" alt="Link.">
+                </div> <!-- Fim da div logo-img -->
 
-    <footer>
-        <div id="mapa">
-            <span>Menu | Pesquisa | Funcionamento</span>
-            <br>
-            <span>Desenvolvedor: André</span>
-        </div>
-        <div id="contato">
-            <span>Contato</span>
-            <div id="redes-sociais">
-                <img id="twitter" src="assets/img/twitter.png" alt="Twitter">
-                <img id="instagram" src="assets/img/instagram.png" alt="Instagram">
-                <img id="gmail" src="assets/img/gmail.png" alt="Gmail">
+                <div id="titulo-cabecalho">
+                    <span id="titulo">Nunca mais esqueça um endereço!</span>
+                </div> <!-- Fim da div titulo-cabecalho -->
+
+            </div> <!-- Fim da div logo-e-titulo -->
+        </header>
+
+        <div id="menu">
+            <button id="dropdown-botao" type="button">Menu</button>
+            <div id="dropdown-opcoes">
+                <span>Fonte</span>
+                <span>Sair</span>
             </div>
-        </div>
-    </footer>
+        </div> <!-- Fim da div menu -->
+
+    </div> <!-- Fim da div cabecalho -->
+
+    <div id="corpo">
+
+        <div id="aplicacao">
+            <main>
+                <form id="formulario" action="">
+                    <input id="busca" type="text" placeholder="Exemplo, http://www.exemplo.com">
+                    <ul id="links">
+                        <li>aaaa</li>
+                    </ul>
+                </form>
+            </main>
+        </div> <!-- Fim da div aplicacao -->
+
+        <div id="texto-video-anuncio">
+
+            <div id="texto">
+                <p id="funcionamento">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div> <!-- Fim da div texto -->
+
+            <div id="video-e-anuncio">
+
+                <div id="video">
+
+                </div> <!-- Fim da div video -->
+
+                <div id="anuncio">
+
+                </div> <!-- Fim da div anuncio -->
+
+            </div> <!-- Fim da div video-e-anuncio -->
+
+        </div> <!-- Fim da div texto-video-anuncio -->
+
+    </div> <!-- Fim da div corpo -->
+
+    <div id="rodape">
+
+        <footer>
+            <div id="mapa-e-contato">
+
+                <div id="mapa">
+                    <span>Menu | Pesquisa | Funcionamento</span>
+                </div> <!-- Fim da div mapa -->
+
+                <div id="contato">
+                    <span>Contato</span>
+                </div> <!-- Fim da div contato -->
+
+            </div> <!-- Fim da div mapa-e-contato -->
+
+            <div id="assinatura">
+                <span>Desenvolvedor: André</span>
+            </div> <!-- Fim da div assinatura -->
+        </footer>
+
+    </div> <!-- Fim da div rodape -->
+
 </body>
+
 </html>
