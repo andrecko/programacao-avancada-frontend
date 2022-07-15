@@ -4,7 +4,7 @@
 
 html {
     font-family: arial, helvetica, sans-serif;
-    background-color: #FEFFE6
+    background-color: #FEFFE6;
 }
 
 /* Cabeçalho */
@@ -25,7 +25,19 @@ html {
 
 /* Menu */
 
-#dropdown-botao {
+#usuario {
+    display: none;
+}
+
+#fonte {
+    display: none;
+}
+
+#sair {
+    display: none;
+}
+
+#acoes {
     font-size: 16px;
     cursor: pointer;
     background-color: #55A85D;
@@ -35,7 +47,7 @@ html {
     padding: 16px;
 }
 
-#dropdown-opcoes {
+#opcoes {
     display: none;
     background-color: #55A85D;
     color: white;
@@ -43,20 +55,20 @@ html {
     text-align: center;
 }
 
-#dropdown-opcoes span {
+#opcoes span {
     padding: 12px 16px;
     display: block;
 }
 
-#dropdown-opcoes span:hover {
+#opcoes span:hover {
     background-color: #43864A
 }
 
-#menu:hover #dropdown-opcoes {
+#menu:hover #opcoes {
     display: block;
 }
 
-#menu:hover #dropdown-botao {
+#menu:hover #acoes {
     background-color: #43864A;
 }
 
@@ -88,10 +100,12 @@ html {
 }
 
 #busca {
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 20px;
     border: none;
-    width: 80%;
+    width: 100%;
+    box-shadow: 1px 1px 5px;
+    padding: 5px;
 }
 
 #texto {
@@ -111,8 +125,71 @@ html {
     color: white;
     padding: 16px;
     text-align: center;
+    font-size: 14px;
 }
 
 footer {
     bottom: 0;
+}
+
+@media (min-width: 480px) {
+
+    #logo-e-titulo {
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #titulo-cabecalho {
+        padding-top: 40px;
+    }
+
+    #menu {
+        width: 100%;
+    }
+
+    #menu:hover #opcoes {
+        display: none;
+    }
+
+    #acoes {
+        display: none;
+    }
+
+    #usuario {
+        display: inline-block;
+        background-color: #55A85D;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 32.8%;
+        padding: 16px;
+    }
+
+    #fonte {
+        display: inline-block;
+        background-color: #55A85D;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 33%;
+        padding: 16px;
+        float: none;
+    }
+
+    #sair {
+        display: block;
+        background-color: #55A85D;
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 32.7%;
+        padding: 16px;
+        float: right;
+    }
+
 }
