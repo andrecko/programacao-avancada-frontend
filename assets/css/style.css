@@ -157,19 +157,26 @@ footer {
         display: none;
     }
 
+    nav {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     #usuario {
-        display: inline-block;
+        display: flex;
         background-color: #55A85D;
         color: white;
         font-size: 16px;
         border: none;
         cursor: pointer;
-        width: 32.8%;
+        width: 34%;
         padding: 16px;
+        text-align: center;
     }
 
     #fonte {
-        display: inline-block;
+        display: flex;
         background-color: #55A85D;
         color: white;
         font-size: 16px;
@@ -177,19 +184,19 @@ footer {
         cursor: pointer;
         width: 33%;
         padding: 16px;
-        float: none;
+        text-align: center;
     }
 
     #sair {
-        display: block;
+        display: flex;
         background-color: #55A85D;
         color: white;
         font-size: 16px;
         border: none;
         cursor: pointer;
-        width: 32.7%;
+        width: 33%;
         padding: 16px;
-        float: right;
+        text-align: center;
     }
 
 }
