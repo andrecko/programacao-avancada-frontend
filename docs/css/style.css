@@ -49,10 +49,6 @@ header, .navbar {
     color: white;
 }
 
-.nav-link:active {
-    color: white;
-}
-
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 1rem .8rem;
 }
