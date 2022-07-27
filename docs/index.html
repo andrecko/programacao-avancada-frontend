@@ -40,23 +40,23 @@
 
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top-lg">
-                <a href="#" class="navbar-brand">
-                    <img src="img/mvp_logo.svg" id="logo" alt="MVP Studio">MVP Studio
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img id="logo" src="img/mvp_logo.svg" alt="MVP Studio"> MVP Studio
                 </a>
-                <button class="nav-toggler" type="button" data-toggler="collapse" data-target="#navbar-links"
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
                     aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
-                        <a href="#" class="nav-item nav-link" id="about-menu">Sobre</a>
-                        <a href="#" class="nav-item nav-link" id="services-menu">Serviços</a>
-                        <a href="#" class="nav-item nav-link" id="team-menu">Time</a>
-                        <a href="#" class="nav-item nav-link" id="projects-menu">Projetos</a>
-                        <a href="#" class="nav-item nav-link" id="contact-menu">Contato</a>
-                    </ul>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+                        <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a>
+                        <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
+                        <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
+                        <a class="nav-item nav-link" id="portfolio-menu" href="#">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -97,13 +97,11 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#mainSlider"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -230,8 +228,8 @@
                         <div class="card">
                             <img src="img/profile1.jpg" class="card-img-top" alt="O cara">
                             <div class="card-body">
-                              <h5 class="card-title">O cara</h5>
-                              <p class="card-text">Desenvolvedor</p>
+                                <h5 class="card-title">O cara</h5>
+                                <p class="card-text">Desenvolvedor</p>
                             </div>
                         </div>
                     </div>
@@ -239,8 +237,8 @@
                         <div class="card">
                             <img src="img/profile2.jpg" class="card-img-top" alt="Outro cara">
                             <div class="card-body">
-                              <h5 class="card-title">A braba</h5>
-                              <p class="card-text">Testador</p>
+                                <h5 class="card-title">A braba</h5>
+                                <p class="card-text">Testador</p>
                             </div>
                         </div>
                     </div>
@@ -248,8 +246,8 @@
                         <div class="card">
                             <img src="img/profile3.jpg" class="card-img-top" alt="Muié">
                             <div class="card-body">
-                              <h5 class="card-title">O brabo</h5>
-                              <p class="card-text">Designer</p>
+                                <h5 class="card-title">O brabo</h5>
+                                <p class="card-text">Designer</p>
                             </div>
                         </div>
                     </div>
@@ -257,8 +255,8 @@
                         <div class="card">
                             <img src="img/profile4.jpg" class="card-img-top" alt="Último cara">
                             <div class="card-body">
-                              <h5 class="card-title">A bam-bam-bam</h5>
-                              <p class="card-text">Desenvolvedora</p>
+                                <h5 class="card-title">A bam-bam-bam</h5>
+                                <p class="card-text">Desenvolvedora</p>
                             </div>
                         </div>
                     </div>
@@ -273,9 +271,15 @@
                     <div class="col-md-6 apply-box" id="company-img"></div>
                     <div class="col-md-6 apply-box">
                         <h4>Gostaria de trabalhar com a gente?</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio officiis ipsam aspernatur, exercitationem vitae dolores iste tenetur necessitatibus perferendis, iusto asperiores cum. Rerum aliquid possimus pariatur numquam non dicta deleniti.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel atque reiciendis ab minus cumque cum, fugiat, impedit at laudantium perspiciatis voluptate autem! Quibusdam quo similique aliquid! Facilis molestias sequi itaque.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, inventore. Consequuntur ullam perferendis ad quos quas consectetur dolorem error quia, quae officiis facere at hic eaque sed? Minus, quos sint?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio officiis ipsam aspernatur,
+                            exercitationem vitae dolores iste tenetur necessitatibus perferendis, iusto asperiores cum.
+                            Rerum aliquid possimus pariatur numquam non dicta deleniti.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel atque reiciendis ab minus cumque
+                            cum, fugiat, impedit at laudantium perspiciatis voluptate autem! Quibusdam quo similique
+                            aliquid! Facilis molestias sequi itaque.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, inventore. Consequuntur
+                            ullam perferendis ad quos quas consectetur dolorem error quia, quae officiis facere at hic
+                            eaque sed? Minus, quos sint?</p>
                         <a href="#" class="main-btn" id="apply-btn">Saiba mais</a>
                     </div>
                 </div>
@@ -322,8 +326,11 @@
 
     </footer>
 
-    <!-- Documento de scripts em JavaScript -->
+    <!-- Documento de scripts -->
     <script src="js/scripts.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
