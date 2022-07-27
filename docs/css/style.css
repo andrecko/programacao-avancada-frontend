@@ -228,3 +228,141 @@ header,
 #apply-box p {
     margin: 30px;
 }
+
+/* Portfólio */
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active,
+#portfolio-area .filter-btn:hover {
+    color: #FFF;
+    border: 1px solid #FFA500;
+    background-color: #FFA500;
+}
+
+/* News Letter */
+
+#news-area {
+    text-align: center;
+    background-color: #F9F9F9;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #FFA500;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #FFA500;
+    background-color: #FFA500;
+    color: #FFF;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: #FFF;
+    color: #FFA500;
+}
+
+/* Footer */
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #FFA500;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-tile {
+    font-weight: bold;
+    color: #FFA500;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #FFA500;
+}
+
+/* Copy */
+
+#copy-area {
+    background-color: #F1F1F1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #FFA500;
+}
